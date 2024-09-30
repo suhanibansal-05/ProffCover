@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoverLetterer</title>
+    <link rel="stylesheet" href="style2.css" />
+
+
+    
+  </head>
+
+  <body>
+    
+    <nav>
+        <div class="logo">
+          <img src="logo.jpg" alt="" width="80px" height="80px" />
+          
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+          <li><a href="second.html">Chat Now</a></li>
+          <li><a href="#signin">Sign In</a></li>
+        </ul>
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+      </nav>
+      <div class="cover">
+      <div class="chat-container">
+        <h3 class="inputBox">Input Box</h3>
+        <div class="userinput">
+            <input type="text" id="user-input" placeholder="Type your prompt here..." />
+            <button id="send-button">Send</button>
+        </div>
+        <br> <br>
+        <h3>Output</h3>
+        <div class="chat-box" id="chat-box"></div>
+    </div>
+    </div>
+  </div>
+    <script>
+        function toggleMenu() {
+          const navLinks = document.querySelector(".nav-links");
+          navLinks.classList.toggle("show");
+        }
+      </script>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
