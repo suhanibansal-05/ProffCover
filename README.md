@@ -1,4 +1,4 @@
-﻿# Professional Cover letter generator
+﻿# Professional Cover letter generator with AI
 
 This project creates a chatbot API that simulates a phi model from gaianet agent. The AI focuses on job related cover letters and since the cover letters are a crucial part of getting a job this AI has some real world implications.
 
